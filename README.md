@@ -16,7 +16,18 @@ factorial(x) function implementation using 9 different programming languages
 * [Ruby](https://github.com/ksukhorukov/fact/blob/main/fact.rb)
 * [Golang](https://github.com/ksukhorukov/fact/blob/main/factgo.go)
 
-## Programming Languages List
+## Usage
+
+```
+% ./fact.rb help
+
+Usage: ./fact.rb 33
+fact(33) = 8683317618811886495518194401280000000
+
+
+```
+
+## Performance Measurements
 
 ```
 % ./performance_measurement.sh

@@ -1,5 +1,7 @@
 #!/usr/bin/env ruby
 
+require 'colorize'
+
 DEFAULT_N = 25
 
 def fact(n)
@@ -7,6 +9,17 @@ def fact(n)
  return 1
 end
 
-n = ARGV.first&.to_i || DEFAULT_N
+def usage
+  puts "\nUsage: #{$0} 33\nfact(33) = 8683317618811886495518194401280000000\n".colorize(color: :blue, mode: :light)
+  exit 
+end 
 
-puts "fact(#{i}) = #{fact(i)}"
+def need_help?
+  ARGV.count > 1 || ARGV&.first == 'help'
+end
+
+usage if need_help?
+
+n = ARGV.first&.to_i 
+
+puts "fact(#{n}) = #{fact(n)}".colorize(color: :green, mode: :bold)
