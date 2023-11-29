@@ -10,8 +10,8 @@ array=(${string/\s/})
 for i in ${!array[@]}
 do  
   executable="${array[i]}"
-  if [ -x "$executable" ]; then echo "$executable: `time ./$executable`"; fi
+  if [ -x "$executable" ]; then echo "$executable `time ./$executable > /dev/null`"; fi
 done
 
-echo -e "Java: ` time java Fact`"
-echo -e "NodeJS: ` time node fact.js`"
+echo -e "Java ` time java Fact > /dev/null`"
+echo -e "NodeJS ` time node fact.js > /dev/null`"

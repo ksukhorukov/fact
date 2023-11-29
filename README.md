@@ -15,3 +15,55 @@ factorial(x) function implementation using 9 different programming languages
 * [Python3](https://github.com/ksukhorukov/fact/blob/main/fact.py)
 * [Ruby](https://github.com/ksukhorukov/fact/blob/main/fact.rb)
 * [Golang](https://github.com/ksukhorukov/fact/blob/main/factgo.go)
+
+## Programming Languages List
+
+```
+% ./performance_measurement.sh
+declare -a a='([0]="fact.php")'
+
+real  0m0.049s
+user  0m0.029s
+sys 0m0.016s
+fact.php 
+
+real  0m0.009s
+user  0m0.004s
+sys 0m0.003s
+fact.pl 
+
+real  0m0.019s
+user  0m0.012s
+sys 0m0.005s
+fact.py 
+
+real  0m0.034s
+user  0m0.024s
+sys 0m0.008s
+fact.rb 
+
+real  0m0.002s
+user  0m0.000s
+sys 0m0.001s
+fact_c 
+
+real  0m0.001s
+user  0m0.000s
+sys 0m0.001s
+factcpp 
+
+real  0m0.002s
+user  0m0.001s
+sys 0m0.001s
+factgo 
+
+real  0m0.031s
+user  0m0.016s
+sys 0m0.010s
+Java 
+
+real  0m0.039s
+user  0m0.031s
+sys 0m0.006s
+NodeJS 
+```
