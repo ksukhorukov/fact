@@ -20,6 +20,6 @@ end
 
 usage if need_help?
 
-n = ARGV.first&.to_i 
+n = ARGV.first&.to_i || DEFAULT_N
 
 puts "fact(#{n}) = #{fact(n)}".colorize(color: :green, mode: :bold)
