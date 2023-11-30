@@ -2,6 +2,10 @@
 
 ```
 factorial(x) function implementation using 9 different programming languages
+
+Factorial from N is N! = n * factorial(n - 1)
+
+For instance, factorial 5! = 1 * 2 * 3 * 4 * 5 = 120
 ```
 
 ## Programming Languages List
