@@ -19,7 +19,7 @@ factorial(x) function implementation using 9 different programming languages
 ## Usage
 
 ```
-% ./fact.rb help
+$ ./fact.rb help
 
 Usage: ./fact.rb 33
 fact(33) = 8683317618811886495518194401280000000
