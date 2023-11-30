@@ -5,7 +5,7 @@ def fact(n):
     return 1
   return n * fact(n - 1)
 
-x = 5 
+x = 25 
 y = fact(x)
 
 print(f'fact({x}) = {y}')

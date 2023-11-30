@@ -14,7 +14,7 @@ sub fact {
 }
 
 
-my $x = 5;
+my $x = 25;
 my $y = fact($x);
 
 print "$y\n"; 

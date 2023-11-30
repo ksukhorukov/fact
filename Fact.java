@@ -8,7 +8,7 @@ class Fact {
   }
 
   public static void main(String[]argv) {
-    Integer x = 5;
+    Integer x = 25;
     Integer y = fact(x);
 
     System.out.println(y);

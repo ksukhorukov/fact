@@ -11,7 +11,7 @@ int fact(int n) {
 }
 
 int main(int argc, char **argv) {
-  int x = 5;
+  int x = 25;
   int y = fact(x);
 
   std::cout << y << std::endl;

@@ -8,7 +8,7 @@ function fact(n) {
   return 1;
 }
 
-x = 5;
+x = 25;
 y = fact(x);
 
 console.log(y);

@@ -13,7 +13,7 @@ func fact(n int) int {
 }
 
 func main() {
-	var x = 5;
+	var x = 25;
 	var y = fact(x);
 
 	fmt.Printf("Go: %d\n", y);
